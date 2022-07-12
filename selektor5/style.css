@@ -1,0 +1,27 @@
+.important_text{
+    background-color: rgb(154, 153, 154);
+}
+h2{
+    color: red;
+}
+#start{
+    color: blue;
+}
+p>a{
+    color: rgb(20, 246, 20);
+}
+.text p:nth-child(3){
+    color: blueviolet;
+}
+.text, .list {
+    color: yellow;
+}
+.list li:nth-child(3){
+    color:green ;
+}
+.list li:first-of-type{
+    color:rgb(12, 133, 247) ;
+}
+.list li:last-of-type{
+    color:rgb(247, 137, 12) ;
+}
